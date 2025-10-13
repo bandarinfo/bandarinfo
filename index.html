@@ -22,7 +22,6 @@
   justify-content: space-between;
 }
 
-  }
   @keyframes gradientBG {
     0% { background-position: 0% 50%; }
     50% { background-position: 100% 50%; }
@@ -36,32 +35,6 @@
     position: relative;
     z-index: 2;
   }
-  <style>
-  /* --- HEWAN LUCU --- */
-  .pet {
-    position: fixed;
-    bottom: 20px;
-    left: 20px;
-    width: 60px;
-    height: 60px;
-    z-index: 9999;
-    pointer-events: none; /* biar tidak ganggu klik tombol */
-    animation: bounce 1.5s infinite;
-    transition: transform 2s ease, left 2s ease, top 2s ease;
-  }
-
-  .pet img {
-    width: 100%;
-    height: 100%;
-    object-fit: contain;
-    filter: drop-shadow(0 0 8px rgba(255,255,255,0.7));
-  }
-
-  @keyframes bounce {
-    0%, 100% { transform: translateY(0); }
-    50% { transform: translateY(-6px); }
-  }
-
 
   /* LOGO UTAMA */
   .logo {
